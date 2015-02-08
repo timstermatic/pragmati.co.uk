@@ -1,0 +1,25 @@
+extends layout
+block content
+    div.row
+        div.col-md-6.full.content
+         div.contact
+             h2 Contact Us
+             p Whether you want to get started with your latest project or have more questions, we'd love to hear from you.
+             address <i class="fi-telephone"></i> 0117 318 2104
+             address <i class="fi-mail"></i> info@pragmati.co.uk
+             address <i class="fi-social-skype"></i> pragmati.co
+             p or use the following form:
+             form(method='post' action='send')
+                input(type='text' name='data[name]' class='form-control' placeholder='Your name' required)
+                br
+                input(type='email' name='data[email]' class='form-control' placeholder='Email' required)
+                br
+                textarea(name='data[message]' class='form-control' placeholder='tell us...' required)
+                br
+                button.btn.btn-default(type='submit') Send
+                    
+        div.col-md-6.full
+         div#map 
+        
+  
+    
