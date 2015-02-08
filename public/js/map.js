@@ -40,7 +40,7 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
 $(document).ready(function(){
-  $('.bxslider').bxSlider( { minSlides: 2, maxSlides: 2, inifiniteScroll: true});
+  $('.bxslider').bxSlider( { minSlides: 2, maxSlides: 2, inifiniteScroll: true, auto: true});
 
   $('#map').height($(window).height()-$('#header').height()+40);
 });
